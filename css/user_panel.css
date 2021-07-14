@@ -1,0 +1,149 @@
+@charset "utf-8";
+
+.panel_pic_holder {
+	position: fixed;
+	left: 7.5rem;
+	top: 3rem;
+	height: auto;
+	width: 5rem;
+	z-index: 1;
+}
+
+.panel_pic {
+	width: 5rem;
+	height: 5rem;
+	border-radius: 2.5rem;
+}
+
+.panel_user {
+	position: absolute;
+	background-color: #FFFFFF;
+	min-width: 15rem;
+	width: 15%;
+	min-height: 10rem;
+	box-shadow: 0px 0px 2px 2px #CDCDCD;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.panel_banner {
+	position: absolute;
+	top: 10.4rem;
+	float: left;
+	background-color: #FFFFFF;
+	min-width: 15rem;
+	width: 15%;
+	min-height: 3rem;
+	box-shadow: 0px 0px 2px 2px #CDCDCD;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.info {
+	color: #5074B0;
+	margin-top: 2.6rem;
+	margin-bottom: 1rem;
+	width: 100%;
+	text-align: center;
+	align-content: center;
+	font-size: 1.5rem;
+}
+
+.text_banner {
+	color: #6B6B6B;
+	width: 100%;
+	text-align: center;
+	align-content: center;
+	font-size: 0.9rem;
+}
+
+.logout_href{
+	background-color: royalblue;
+	color: whitesmoke;
+	text-decoration:none;
+	background-repeat:repeat;
+	background-size:auto;
+	background-origin:padding-box;
+	background-clip:padding-box;
+	border-radius: 2px;
+	border: none;
+}
+
+.logout_href:hover{
+	background-color: #A2C5FF;
+	color: #474747;
+}
+
+.login_href {
+	background-color: royalblue;
+	margin: 0.5rem;
+	padding: 0.4rem;
+	color: whitesmoke;
+	border-radius: 2.0px;
+}
+
+.login_href:hover {
+	background-color: #A2C5FF;
+	color: #474747;
+}
+
+.register_href {
+	background-color: chocolate;
+	margin: 0.5rem;
+	padding: 0.4rem;
+	color: whitesmoke;
+	border-radius: 2.0px;
+}
+
+.register_href:hover {
+	background-color: darkorange;
+	color: #474747;
+}
+
+.user_type {
+	background-color: #5074B0;
+	color: whitesmoke;
+	font-size: 0.75rem;
+	width:30%;
+	border-radius: 2.0px;
+}
+.success_type {
+	background-color: #5074B0;
+	color: whitesmoke;
+	font-size: 0.75rem;
+	width:70%;
+	border-radius: 2.0px;
+}
+.fail_type {
+	background-color: darkred;
+	color: whitesmoke;
+	font-size: 0.75rem;
+	width:70%;
+	border-radius: 2.0px;
+}
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+
+	/*为了兼容IE11单独修改的样式*/
+	.panel_user {
+		position: absolute;
+		float: left;
+		background-color: #FFFFFF;
+		min-width: 15rem;
+		width: 15%;
+		min-height: 10rem;
+		box-shadow: 0px 0px 2px 2px #CDCDCD;
+		border-radius: 10px 10px 10px 10px;
+	}
+
+	.panel_banner {
+		position: absolute;
+		top: 10.4rem;
+		float: left;
+		background-color: #FFFFFF;
+		min-width: 15rem;
+		width: 15%;
+		min-height: 3rem;
+		box-shadow: 0px 0px 2px 2px #CDCDCD;
+		border-radius: 10px 10px 10px 10px;
+	}
+}
